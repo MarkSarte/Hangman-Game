@@ -1,2 +1,6 @@
 # Hangman-Game
 Hangman is a classic word guessing game where players have to guess the letters of a hidden word before running out of chances. 
+
+The game randomly selects a word from a predefined list and displays blank spaces for each letter in the word. The player inputs a letter guess, and the game checks if the letter is in the word. If correct, the game fills in the blank space with the letter. If incorrect, the player loses a life, and the game displays a new stage of the Hangman. The game continues until the player either guesses all the letters or runs out of lives.
+
+To create the game, I used several tools in Python, including while loops to keep the game running until the player runs out of lives or correctly guesses the word, and for loops to display the correctly guessed letters in the blanks of the chosen word. External modules such as the random module for selecting a word from a list, hangman_words module to import a list of words, and the hangman_art module to add an interactive user interface were imported into the game to make it more user-friendly. The game's stages are displayed using ASCII art, which was stored as variables in another Python file and imported into the game.
